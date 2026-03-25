@@ -1,3 +1,3 @@
-const API = "https://api-1-1ura.onrender.com"
+const API = "http://localhost:3000/products"
 
 export default API

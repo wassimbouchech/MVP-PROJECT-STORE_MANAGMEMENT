@@ -14,39 +14,64 @@ function App() {
   const [page, setPage] = useState("allProducts");
   const [products, setProducts] = useState([]);
   const [searchedProduct, setSearchedProducts] = useState([]);
+  const [categorie, setCategorie] = useState("all");
+  const [selectedProduct,setSelectedProduct]=useState(null)
 
   const handLogin = (user) => {
     setUsername(user);
     setLogIn(true);
     localStorage.setItem("user", user);
   };
-
-  const handleSearch = (searchProduct) => {
-    const searched = products.filter((product) =>
-      product.name.toLowerCase().includes(searchProduct.toLowerCase()),
-    );
-    setSearchedPosts(searched);
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    setLogIn(false)
   };
+
+  useEffect(() => {
+    const savedUser = localStorage.getItem("user");
+    if (savedUser) {
+      setUsername(savedUser);
+      setLogIn(true);
+    }
+  }, []);
 
   useEffect(() => {
     axios
       .get(API)
-      .then(function (res) {
+      .then((res) => {
         setProducts(res.data);
         setSearchedProducts(res.data);
       })
-      .catch(function (err) {
+      .catch((err) => {
         console.log(err);
       });
   }, []);
-  console.log(products);
+
+  const handleSearch = (searchProduct) => {
+    const filtred = products.filter((product) => {
+      const searched = product.productName
+        .toLowerCase()
+        .includes(searchProduct.toLowerCase());
+      const matchCategorie =
+        categorie === "all" || product.categorie === categorie;
+      return searched && matchCategorie;
+    });
+    setSearchedProducts(filtred)
+  };
 
   const pages = () => {
     if (page === "allProducts") {
-      return <AllProducts />;
+      return (
+        <AllProducts
+          products={searchedProduct}
+          setPage={setPage}
+          setProducts={setProducts}
+          setSelectedProduct={setSelectedProduct}
+        />
+      );
     } else if (page === "product") {
-      return <Product />;
-    } else if (page === "addPost") {
+      return <Product product={selectedProduct}/>;
+    } else if (page === "addProduct") {
       return <AddPost />;
     }
   };
@@ -55,7 +80,19 @@ function App() {
     <div className="app">
       <nav className="nav">
         <div className="logo"></div>
-        <Search handleSearch={handleSearch} />
+        <Search handleSearch={handleSearch} handleLogout={handleLogout} />
+        <select
+          value={categorie}
+          onChange={(e) => setCategorie(e.target.value)}
+        >
+          <option value="all">all products</option>
+          <option value="pc">PC</option>
+          <option value="monitor">Monitor</option>
+          <option value="accessories">accessories</option>
+          <option value="digital">Digital items / keys</option>
+        </select>
+        <div onClick={()=>setPage("addProduct")}>create Product</div>
+        <div onClick={()=>setPage("allProducts")}>Our product</div>
       </nav>
       {pages()}
     </div>

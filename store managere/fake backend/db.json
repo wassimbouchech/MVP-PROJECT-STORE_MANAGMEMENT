@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Ryzen 3 3200G | Vega 8 | 16GB DDR4",
+      "details": "Desktop PC with Ryzen 3 3200G, Vega 8 graphics, 16GB RAM",
+      "categorie": "pc",
+      "price": 999000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/63344-large_default/ryzen-3-3200g-vega-8-16gb-ddr4.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Ryzen 5 3400G | Vega 11 | 16GB DDR4",
+      "details": "Desktop PC with Ryzen 5 3400G, Vega 11 graphics, 16GB RAM",
+      "categorie": "pc",
+      "price": 1049000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/63345-large_default/ryzen-5-3400g-vega-11-16gb-ddr4.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "FULL SETUP Ryzen 3 3200G | Vega 8 | 16GB DDR4",
+      "details": "Full setup including monitor, keyboard, mouse and headset",
+      "categorie": "setup",
+      "price": 1349000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/64072-large_default/full-setup-ryzen-3-3200g-vega-8-16gb-ddr4.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "FULL SETUP Ryzen 5 3400G | Vega 11 | 16GB DDR4",
+      "details": "Full setup with Ryzen 5 3400G and peripherals",
+      "categorie": "setup",
+      "price": 1399000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/64073-large_default/full-setup-ryzen-5-3400g-vega-11-16gb-ddr4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Ryzen 5 5500GT | Vega 7 | 16GB DDR4",
+      "details": "Gaming PC with Ryzen 5 5500GT, Vega 7 graphics",
+      "categorie": "pc",
+      "price": 1479000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/63346-large_default/ryzen-5-5500gt-vega-7-16gb-ddr4.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "Ryzen 5 5650G | Vega 7 | 16GB DDR4",
+      "details": "Desktop PC with Ryzen 5 5650G and Vega 7",
+      "categorie": "pc",
+      "price": 1499000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/63347-large_default/ryzen-5-5650g-vega-7-16gb-ddr4.jpg"
+    },
+    {
+      "id": 7,
+      "productName": "Ryzen 5 3600 | RTX 3050 6GB | 16GB DDR4",
+      "details": "Gaming PC with Ryzen 5 3600 and RTX 3050 GPU",
+      "categorie": "gaming",
+      "price": 1789000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/64104-large_default/ryzen-5-3600-rtx-3050-6gb-16gb-ddr4.jpg"
+    },
+    {
+      "id": 8,
+      "productName": "AMD Ryzen 5 5500 | RTX 3050 6GB | 16GB DDR4",
+      "details": "Gaming PC with Ryzen 5 5500 and RTX 3050 GPU",
+      "categorie": "gaming",
+      "price": 1929000,
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/64105-large_default/amd-ryzen-5-5500-rtx-3050-6gb-16gb-ddr4.jpg"
+    }
+  ]
+}
