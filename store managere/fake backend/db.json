@@ -281,13 +281,22 @@
       "id": "4UO2b8otci8"
     },
     {
-      "productName": "Call of Duty: Modern Warfare 2  Steam Account",
+      "productName": "Call of Duty: Modern Warfare 2 Steam Key",
       "details": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141.",
       "categorie": "digital",
       "price": "135.00",
       "quantity": "99",
       "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2022/08/mw2-2022.png?fit=268%2C249&ssl=1",
       "id": "Qs_pTvIoyXI"
+    },
+    {
+      "productName": "INCA IKG-439 - GRIS",
+      "details": "⌨️ Clavier Mécanique 87 Touches – RGB Dynamique & Performance Gaming\n\n🔌 Type de connexion : USB 2.0 filaire, stable et rapide\n📏 Longueur du câble : 1,8 mètre\n🎯 Switches : Mécaniques rouges (Red Switch) offrant une frappe fluide et silencieuse\n💡 Rétroéclairage : RGB complet, dynamique et sensible au son pour une immersion totale\n🔠 Nombre de touches : 87 touches mécaniques compactes\n⏳ Durée de vie : Jusqu’à 50 millions de frappes\n\n🎵 Fonctionnalités avancées :\n✔️ Anti-ghosting complet – Reconnaît toutes les touches simultanément sans perte\n✔️ 12 touches multimédia dédiées pour un contrôle rapide\n✔️ Touches double injection pour une meilleure durabilité\n⚙️ Logiciel inclus pour personnalisation des macros et des effets lumineux",
+      "categorie": "accessories",
+      "price": "99.000",
+      "quantity": "17",
+      "image": "https://skymil-informatique.com/59236-large_default/inca-ikg-439-gris.jpg",
+      "id": "n54lDBLSpQQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
