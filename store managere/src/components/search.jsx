@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-function search({ handleSearch, handleLogout }) {
+function search({ handleSearch }) {
   const [search, setSearch] = useState("");
   const searching = () => {
     handleSearch(search);
   };
   return (
-    <div>
+    <div className="search-container">
       <input
         type="text"
         placeholder="search for your Product"
@@ -19,9 +19,7 @@ function search({ handleSearch, handleLogout }) {
       <button type="button" onClick={searching}>
         Search
       </button>
-      <button type="button" onClick={handleLogout}>
-        logout
-      </button>
+
     </div>
   );
 }

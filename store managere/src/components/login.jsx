@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function login({ handleLogin }) {
   const [username, setUsername] = useState("");
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (username.trim() !== "") {
@@ -10,16 +10,19 @@ function login({ handleLogin }) {
     }
   };
   return (
-    <div>
-      <h1>log In</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Username"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <button type="submit">log in</button>
+    <div className="login-container">
+      <form onSubmit={handleSubmit} className="form">
+        <h1 className="login-title">log In</h1>
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            className="login-input"
+          />
+          <button type="submit" className="login-submit">
+            log in
+          </button>
       </form>
     </div>
   );

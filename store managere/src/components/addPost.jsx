@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import API from "../API";
 
-function addPost() {
+function AddPost() {
   const [productName, setProductName] = useState("");
   const [categorie, setCategorie] = useState("");
   const [details, setDetails] = useState("");
@@ -10,10 +10,11 @@ function addPost() {
   const [image, setImage] = useState("");
   const [qte, setqte] = useState(0);
 
-  const postProdduct = () => {
+  const postProdduct = (e) => {
     e.preventDefault();
     if (categorie == "0") {
       alert("choose categorie");
+      return;
     }
     const newProduct = {
       productName: productName,
@@ -39,9 +40,9 @@ function addPost() {
       });
   };
   return (
-    <div>
+    <div className="add-product-container">
       <h1>New Product</h1>
-      <form onSubmit={postProdduct}>
+      <form onSubmit={postProdduct} className="add-product-form">
         <input
           type="text"
           placeholder="Product Name..."
@@ -60,6 +61,7 @@ function addPost() {
           onChange={(e) => {
             setDetails(e.target.value);
           }}
+          className="product-details"
         />
         <select
           value={categorie}
@@ -106,4 +108,4 @@ function addPost() {
   );
 }
 
-export default addPost;
+export default AddPost;

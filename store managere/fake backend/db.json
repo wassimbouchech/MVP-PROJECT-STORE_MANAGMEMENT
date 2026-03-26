@@ -1,76 +1,294 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "productName": "Ryzen 3 3200G | Vega 8 | 16GB DDR4",
-      "details": "Desktop PC with Ryzen 3 3200G, Vega 8 graphics, 16GB RAM",
-      "categorie": "pc",
-      "price": 999000,
-      "quantity": 1,
-      "image": "https://skymil-informatique.com/63344-large_default/ryzen-3-3200g-vega-8-16gb-ddr4.jpg"
-    },
-    {
-      "id": 2,
-      "productName": "Ryzen 5 3400G | Vega 11 | 16GB DDR4",
-      "details": "Desktop PC with Ryzen 5 3400G, Vega 11 graphics, 16GB RAM",
-      "categorie": "pc",
-      "price": 1049000,
+      "details": "lcd.png  PC Gamer -  Garantie 1 an motherboard.png  Carte mère : MSI A520M-A PRO cpu.png  Processeur : AMD Ryzen 3 3200G (3.6 GHz jusqu’à 4.0 GHz en Turbo) cooler.png  Refroidissement : AMD Origine memory.png  Mémoire RAM : TEAM GROUP ELITE DDR4 16Gb 3200Mhz graphics-card.png  Carte graphique : AMD Radeon Vega 8 Graphics power-supply.png   Alimentation : MSI MAG A500N-H  💾 Stockage principal : Samsung SSD 830 Series 128 Go  solid-state-drive.png Stockage secondaire : Seagate 500 Gb | 7200 Rpm  computer-case.png   Boîtier : NJOY BOITIER ANIL RGB",
+      "categorie": "",
+      "price": "999.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/63345-large_default/ryzen-5-3400g-vega-11-16gb-ddr4.jpg"
     },
     {
-      "id": 3,
+      "id": "2",
+      "productName": "Ryzen 5 3400G | Vega 11 | 16GB DDR4",
+      "details": "🖥️ PC Gamer -  Garantie 1 an  🔹 Carte mère : MSI A520M-A PRO  🔸 Processeur : AMD Ryzen 5 3400G (3.7 GHz jusqu’à 4.2 GHz en Turbo)  ❄️ Refroidissement : AMD Origin  🚀 Mémoire RAM : Team Elite 16 Gb DDR4 - 3200 MHz  🎮 Carte graphique : AMD Radeon Vega 11 Graphics  ⚡ Alimentation : MSI MAG A500N-H  💾 Stockage principal : Samsung SSD 830 Series 128 Go  solid-state-drive.png Stockage secondaire : Seagate 500 Gb | 7200 Rpm  🛡️ Boîtier : NJOY BOITIER ANIL RGB",
+      "categorie": "pc",
+      "price": "1049.000",
+      "quantity": 1,
+      "image": "https://skymil-informatique.com/63345-large_default/ryzen-5-3400g-vega-11-16gb-ddr4.jpg"
+    },
+    {
+      "id": "3",
       "productName": "FULL SETUP Ryzen 3 3200G | Vega 8 | 16GB DDR4",
-      "details": "Full setup including monitor, keyboard, mouse and headset",
-      "categorie": "setup",
-      "price": 1349000,
+      "details": "⚙️ Configuration 🔹 Carte mère : MSI A520M-A PRO 🔸 Processeur : AMD Ryzen 3 3200G (3.6 GHz jusqu’à 4.0 GHz en Turbo) ❄️ Refroidissement : AMD Origin 🚀 Mémoire Ram : Team Elite 16 Gb DDR4 - 3200 MHz 🎮 Carte graphique : AMD Radeon Vega 8 (intégrée au processeur) ⚡ Alimentation : MSI MAG A500N-H 💾 Stockage principal : Samsung SSD 830 Series 128 Go 💾 Stockage secondaire : Seagate 500 Gb | 7200 Rpm 🛡️ Boîtier : NJOY BOITIER ANIL RGB 🧩 Périphériques inclus 💻 Écran Gamer : MSI PRO MP252L | 25\" IPS | 100 HZ | 1 MS 🎧 Micro Casque Gamer : BARACUDA BGH-021 HYDRA - Black ⌨️ Combo Pack : Baracuda ORCA BGC-001 - BLACK 🖱️ Tapis de souris : Baracuda BGMP-021 WALRUS M - BLACK",
+      "categorie": "pc",
+      "price": "1349.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/64072-large_default/full-setup-ryzen-3-3200g-vega-8-16gb-ddr4.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "productName": "FULL SETUP Ryzen 5 3400G | Vega 11 | 16GB DDR4",
-      "details": "Full setup with Ryzen 5 3400G and peripherals",
-      "categorie": "setup",
-      "price": 1399000,
+      "details": "🖥️ Full Setup Gamer – Garantie 1 an  Carte mère : MSI A520M-A PRO Processeur : AMD Ryzen 5 3400G – 3.7 GHz (jusqu’à 4.2 GHz en Turbo) Refroidissement : AMD Origin Mémoire RAM : Team Elite 16 Go DDR4 – 3200 MHz Carte graphique : AMD Radeon Vega 11 (intégrée au processeur) Alimentation : MSI MAG A500N-H 💾 Stockage principal : Samsung SSD 830 Series 128 Go  solid-state-drive.png Stockage secondaire : Seagate 500 Gb | 7200 Rpm  Boîtier : NJOY BOITIER ANIL RGB 🧩 Périphériques inclus :  Écran Gamer : MSI PRO MP252L | 25\" IPS | 100 HZ | 1 MS Tapis souris : Baracuda BGMP-021 WALRUS M -  BLACK 🎧 Micro Casque Gamer : BARACUDA BGH-021 HYDRA - Black  ⌨️🖱️ Combo Pack Baracuda ORCA BGC-001 - BLACK",
+      "categorie": "pc",
+      "price": "1399.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/64073-large_default/full-setup-ryzen-5-3400g-vega-11-16gb-ddr4.jpg"
     },
     {
-      "id": 5,
-      "productName": "Ryzen 5 5500GT | Vega 7 | 16GB DDR4",
-      "details": "Gaming PC with Ryzen 5 5500GT, Vega 7 graphics",
-      "categorie": "pc",
-      "price": 1479000,
-      "quantity": 1,
-      "image": "https://skymil-informatique.com/63346-large_default/ryzen-5-5500gt-vega-7-16gb-ddr4.jpg"
-    },
-    {
-      "id": 6,
+      "id": "6",
       "productName": "Ryzen 5 5650G | Vega 7 | 16GB DDR4",
-      "details": "Desktop PC with Ryzen 5 5650G and Vega 7",
+      "details": "🖥️ PC Gamer - Garantie 1 an  🔹 Carte mère : MSI A520M-A PRO  🔸 Processeur : AMD Ryzen 5 5650G (3.9 GHz / 4.4 GHz)  ❄️ Refroidissement : AMD Origin  🚀 Mémoire RAM : Team Elite 16 Gb DDR4 - 3200 MHz  🎮 Carte graphique : Radeon Vega Graphics 7  ⚡ Alimentation : MSI MAG A500N-H  💾 Stockage principal : Samsung SSD 830 Series 128 Go  solid-state-drive.png Stockage secondaire : Seagate 500 Gb | 7200 Rpm  🛡️ Boîtier : NJOY BOITIER ANIL RGB",
       "categorie": "pc",
-      "price": 1499000,
+      "price": "1499.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/63347-large_default/ryzen-5-5650g-vega-7-16gb-ddr4.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "productName": "Ryzen 5 3600 | RTX 3050 6GB | 16GB DDR4",
-      "details": "Gaming PC with Ryzen 5 3600 and RTX 3050 GPU",
-      "categorie": "gaming",
-      "price": 1789000,
+      "details": "🖥️ PC Gamer -  Garantie 1 an  🔹 Carte mère : MSI A520M-A PRO  🔸 Processeur : AMD Ryzen 5 3600 (3.6 GHz / 4.2 GHz) - BOX  ❄️ Refroidissement : AMD Origin  🚀 Mémoire RAM : Team Elite 16 Gb DDR4  🎮 Carte graphique : ZOTAC RTX 3050 Twin Edge OC 6GB GDDR6  ⚡ Alimentation : MSI MAG A500N-H  💾 Stockage principal : KINGSTON M.2 SSD A400 240GB  solid-state-drive.png Stockage secondaire : Seagate 500 Gb | 7200 Rpm  🛡️ Boîtier : Raidmax Neon - ARGB - 3 Ventilateur RGB",
+      "categorie": "pc",
+      "price": "1789.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/64104-large_default/ryzen-5-3600-rtx-3050-6gb-16gb-ddr4.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "productName": "AMD Ryzen 5 5500 | RTX 3050 6GB | 16GB DDR4",
       "details": "Gaming PC with Ryzen 5 5500 and RTX 3050 GPU",
-      "categorie": "gaming",
-      "price": 1929000,
+      "categorie": "pc",
+      "price": "1929.000",
       "quantity": 1,
       "image": "https://skymil-informatique.com/64105-large_default/amd-ryzen-5-5500-rtx-3050-6gb-16gb-ddr4.jpg"
+    },
+    {
+      "productName": "Dell Pro 22 Monitor - E2225HM",
+      "details": "🖥️ 22\" VA – FHD\n\n🎯 Résolution : 1920x1080 (16:9) | 72% NTSC\n⚡ Taux de rafraîchissement : 100Hz | 🕒 Temps de réponse : 5ms (Fast) / 8ms GTG\n🌈 Luminosité : 250 cd/㎡ | ⚫ Contraste : 3000:1\n👀 Angles de vision : 178° / 178° | Anti-glare, Eye Comfort\n🔌 Connectique : HDMI 1.4, DisplayPort 1.2, VGA | VESA 100x100\n🌀 Réglages : Inclinaison -5° / +21° | Pied inclus\n📦 Inclus : Câble DisplayPort (1.8m), Câble d’alimentation, Pied, Guide rapide, Infos sécurité\n🛡️ Garantie : 3 ans (Dell Advanced Exchange Service)",
+      "categorie": "monitor",
+      "price": "320.000",
+      "quantity": "5",
+      "image": "https://skymil-informatique.com/61114-large_default/dell-pro-22-monitor-e2225hm.jpg",
+      "id": "uAilmVWtHow"
+    },
+    {
+      "productName": "MSI PRO E14 | 24\" | 144 HZ | 1 MS - White",
+      "details": "🖥️ Moniteur MSI PRO E14 | 24\" | 144 HZ | 1 MS\n\nÉcran 23.8\" Full HD (1920×1080) | VA | 16:9 | Flat\nFreeSync 144Hz | 1ms MPRT \n250 nits | Contraste 3500:1 | HDR Ready\nCouleurs : 98% sRGB, 16,7M, 8 bits (6 bits + FRC) | Angles 178°/178°\nConnectique : HDMI 2.0 + DisplayPort 1.2a (FHD@144Hz)\nInclinaison -5° à 20° | VESA 100×100 | Kensington Oui\nPoids 2.94 kg | Compatible PC/Mac/PS5/PS4/Xbox 🎮💻",
+      "categorie": "monitor",
+      "price": "329.000",
+      "quantity": "7",
+      "image": "https://skymil-informatique.com/63925-large_default/msi-pro-e14-24-144-hz-1-ms-white.jpg",
+      "id": "kQ4ji1mESoI"
+    },
+    {
+      "productName": "White Soldier - Ryzen 5 3600 | RTX 3050 6GB | 16GB DDR4",
+      "details": "🖥️ PC Gamer -  Garantie 1 an\n\n🔹 Carte mère : MSI A520M-A PRO\n\n🔸 Processeur : AMD Ryzen 5 3600 (3.6 GHz / 4.2 GHz)\n\n❄️ Refroidissement : Hyper 212 Halo - WHITE + Bon d'achat 50DT Offert\n\n🚀 Mémoire RAM : XPG SPECTRIX D35G 16 GB RGB ( 2 X 8 GB ) 3200 DDR4 WHITE\n\n🎮 Carte graphique : ZOTAC RTX 3050 Twin Edge OC 6GB GDDR6\n\n⚡ Alimentation : MSI MAG A500N-H\n\n💾 Stockage principal : MSI SPATIUM M450 NVMe M.2 500Gb\n\n🛡️ Boîtier : Spirit OF Gamer CLONE 3 ARTIC RGB\n\n✅ Garantie : 1 an",
+      "categorie": "pc",
+      "price": "1959.000",
+      "quantity": "4",
+      "image": "https://skymil-informatique.com/63912-large_default/white-soldier-ryzen-5-3600-rtx-3050-6gb-16gb-ddr4.jpg",
+      "id": "gNdeoewEZh8"
+    },
+    {
+      "productName": "White samurai - RYZEN 5 5500 | Arc B580 | 16GB DDR4",
+      "details": "🔥 PC GAMER AMD dispo chez Skymil Informatique !\n\n⚙️ Processeur : AMD Ryzen 5 5500 (3.6 GHz / 4.2 GHz)\n🧠 Carte Mère : MSI A520M-A PRO\n\n❄️ Refroidissement : Cooler Master MASTERLIQUID 240L Core ARGB WHITE\n\n🎮 Carte Graphique : ASRock Intel Arc B580 Steel Legend 12GB OC\n🚀 RAM : XPG SPECTRIX D35G 16 GB RGB ( 2 X 8 GB ) 3200 DDR4 WHITE\n\n💾 Stockage principal : MSI SPATIUM M450 NVMe M.2 500Gb\n\n🔌 Alimentation : DeepCool PL750D 80+ Bronze | White Color\n🌈 Boîtier : RAIDMAX INFINTA i800 WHITE\n🛡️ Garantie : 1 an",
+      "categorie": "pc",
+      "price": "2699.000",
+      "quantity": "4",
+      "image": "https://skymil-informatique.com/63842-large_default/white-samurai-ryzen-5-5500-arc-b580-16gb-ddr4.jpg",
+      "id": "J3D9NH5HNJo"
+    },
+    {
+      "productName": "Core i5-12400F | RTX 5060 - 8GB | 16GB DDR4",
+      "details": "🖥️ PC Gamer Performant – Intel Core i5 + RTX 5060\n💥 Un monstre de puissance et de fluidité, prêt à faire tourner les derniers jeux en 1080p/2K avec des performances exceptionnelles et un refroidissement maîtrisé.\n\n🔧 Configuration technique :\n\n🧠 Processeur : Intel Core i5-12400F – 6 cœurs / 12 threads – idéal gaming & multitâche\n\n❄️ Refroidissement : Watercooling REDRAGON CCW-3011 - BLACK – performances thermiques optimales\n\n🧱 Carte Mère : MSI PRO H610M-E DDR4 – Fiable et évolutive\n\n🔥 Carte Graphique : ZOTAC GAMING RTX 5060 AMP 8GB – Ray Tracing & DLSS 3 pour un rendu graphique nouvelle génération\n\n⚡ Mémoire RAM : TEAM GROUP ELITE DDR4 16Gb– fluidité assurée en gaming & création\n\n💾 Stockage principal : MSI SPATIUM M450 NVMe M.2 500Gb\n\n🔌 Alimentation : OCPC ENERGIA 650W 80+ BRONZE \n\n🖤 Boîtier : RAIDMAX MESHIAN X603 Lite BLACK - 4 Ventilateurs RGB",
+      "categorie": "",
+      "price": "3069.000",
+      "quantity": "2",
+      "image": "https://skymil-informatique.com/63183-large_default/core-i5-12400f-rtx-5060-8gb-16gb-ddr4.jpg",
+      "id": "HawWUcCVnh0"
+    },
+    {
+      "productName": "REDRAGON Memphis II | 27\" | 120Hz 1MS | IPS",
+      "details": "🖥️ Écran Gamer 27\" – Full HD\n\n📏 Taille : 27 pouces • Technologie : IPS\n🖼️ Résolution : 1920 × 1080 • Taux de rafraîchissement : 120Hz • Temps de réponse : 1ms\n🌈 Contraste : 1000:1 • Angle de vision : 178°\n🔌 Connecteurs : HDMI, VGA",
+      "categorie": "monitor",
+      "price": "329.000",
+      "quantity": "6",
+      "image": "https://skymil-informatique.com/64081-large_default/redragon-memphis-ii-27-120hz-1ms-ips.jpg",
+      "id": "podmWoKl9Ps"
+    },
+    {
+      "productName": "MSI MAG 245F X24 | Fast IPS | 240 Hz | 0.5 ms",
+      "details": "🖥️ Écran Gaming 24\" Fast IPS FHD 240 Hz\n\n🎯 Caractéristiques principales :\n📏 Taille : 24 pouces – Format 16:9\n🖼️ Résolution : 1920 x 1080 (FHD)\n💡 Luminosité : 300 nits\n🔲 Contraste : 1000:1\n🎨 Dalle : IPS – Angles de vision 178° / 178° – Finition antireflet\n⚡ Temps de réponse : 0,5 ms (GtG)\n🎮 Taux de rafraîchissement : jusqu'à 240 Hz (HDMI™ & DisplayPort)\n🌈 Technologies : Adaptive-Sync – AMD FreeSync Premium – HDR Ready\n🛡️ Confort visuel : Flicker-Free & Anti-Lumière Bleue",
+      "categorie": "monitor",
+      "price": "399.000",
+      "quantity": "3",
+      "image": "https://skymil-informatique.com/62777-large_default/msi-mag-245f-x24-fast-ips-240-hz-05-ms.jpg",
+      "id": "bJ7eriFW0GQ"
+    },
+    {
+      "productName": "REDRAGON NOCTIS K632 RED SWITCH",
+      "details": "Type : Clavier mécanique ultra-mince – Low profile\n\nFormat : 60% – Compact sans pavé numérique\n\nRétroéclairage : RGB personnalisable\n\nConnexion : Tri-mode : Bluetooth / 2.4 GHz / USB filaire\n\nLatence : Connexion sans décalage (mode sans fil performant)\n\nCompatibilité : Windows / macOS / Android\n\nCouleur : Noir\n\nGarantie : 3 mois\n\n✅ Clavier compact, rapide et polyvalent, idéal pour les setups minimalistes ou mobiles sans compromis sur la performance.",
+      "categorie": "accessories",
+      "price": "99.000",
+      "quantity": "20",
+      "image": "https://skymil-informatique.com/49511-large_default/redragon-noctis-k632-red-switch.jpg",
+      "id": "W7Q1he6rlkE",
+      "categories": "accessories"
+    },
+    {
+      "productName": "Redragon STAR BLADE K707 RGB",
+      "details": "🧲 Clavier Gaming Magnétique 81 Touches – Mandarine Noir\n⚡ Vitesse. Précision. Réactivité extrême.\n\n🎮 Compatibilité : PC, ordinateur portable, console de jeu\n🔌 Connectivité : USB-C (rapide et stable)\n⌨️ Interrupteurs magnétiques : Déclenchement ultra-rapide, idéal pour le gaming compétitif\n📈 Polling rate : 8000 Hz – une réactivité inégalée\n🌈 Rétroéclairage RGB : Effets lumineux immersifs entièrement personnalisables\n🔢 81 touches : Format compact sans compromis sur la performance\n🎨 Couleur : Mandarine noire\n\n🕹️ Conçu pour les joueurs exigeants. Parfait pour le style et la performance.",
+      "categorie": "accessories",
+      "price": "129.000",
+      "quantity": "8",
+      "image": "https://skymil-informatique.com/57686-large_default/redragon-star-blade-k707-rgb-.jpg",
+      "id": "wKl6qIJSv7U"
+    },
+    {
+      "productName": "WHITE SHARK EXCALIBUR KTT Hot-Swap - BLACK / QWERTY",
+      "details": "⌨️ KEYBOARD 97+ – KTT HOT-SWAP WINE RED\n\n✅ Touches : 97 + molette métal\n✅ Switch : Wine Red, actuation 43g, hot-swap\n✅ Anti-Ghosting : Complet\n✅ Connexion : USB 2.0 / 2.4GHz / Bluetooth\n✅ Compatibilité : Windows, Linux, MacOS, iPadOS, iOS10+, Android 5.0+\n✅ Rétroéclairage : RGB, 17 effets\n✅ Autonomie : >14 h (rétro), >80 h (sans rétro)\n✅ Durée de vie : >80 millions de pressions\n✅ Poids : 1063 g",
+      "categorie": "accessories",
+      "price": "219.000",
+      "quantity": "9",
+      "image": "https://skymil-informatique.com/63019-large_default/white-shark-excalibur-ktt-hot-swap-black-qwerty.jpg",
+      "id": "qeT4XcdfbBs"
+    },
+    {
+      "productName": "Redragon K1NG M916 PRO 1K - White - Wireless",
+      "details": "🔗 Connectivité\tFilaire, Sans-fil 2.4G, Bluetooth\n🎯 Type de Capteur\tOptique (PAW3395)\n✨ Résolution (DPI)\tJusqu’à 26 000 DPI\n🔢 Boutons\t5 (programmables)\n🔃 Polling Rate\t1000 Hz\n🛡️ Garantie\t1 an",
+      "categorie": "accessories",
+      "price": "89.000",
+      "quantity": "9",
+      "image": "https://skymil-informatique.com/64243-large_default/redragon-k1ng-m916-pro-1k-white-wireless.jpg",
+      "id": "yWLItTM3_pE"
+    },
+    {
+      "productName": "Redragon K1NG M918 MAX - AKB Pro - Wireless",
+      "details": "🔗 Connectivité\tTri-mode (2.4 GHz, Bluetooth, Filaire USB-C)\n🎯 Capteur & DPI\tPixArt PAW3395 (26 000 DPI / 50G)\n⚖️ Poids Ultra-léger\t55 g\n🖱️ Conception\t6 boutons, Ergonomie symétrique\n🔃 Polling Rate\t1000 Hz\n🛡️ Garantie\t1 an",
+      "categorie": "accessories",
+      "price": "169.000",
+      "quantity": "10",
+      "image": "https://skymil-informatique.com/64292-large_default/redragon-k1ng-m918-max-akb-pro-wireless.jpg",
+      "id": "zdju1y_C_Nk"
+    },
+    {
+      "productName": "White Shark WGM-5019 DAGONET Wireless - WHITE",
+      "details": "🖱️ Type : Souris sans fil 6D – 6 boutons\n\n🎨 Couleur : Blanc\n\n🔗 Connectivité : BT + 2.4 GHz + USB 2.0\n\n🎯 Capteur : Pixart PAW3311DB – 12 000 DPI (24 000 via software)\n\n🏃‍♂️ Accélération : 35 G\n\n💡 Éclairage : LED DPI\n\n⏳ Durée de vie : 10M clics (HUANO)\n\n🔌 Câble : Paracord 1.8 m\n\n🔋 Batterie : Lithium 300 mAh\n\n🧊 Poids : 50 g seulement\n\n💻 Compatibilité : Windows 7/8/10/11 – macOS",
+      "categorie": "accessories",
+      "price": "99.000",
+      "quantity": "6",
+      "image": "https://skymil-informatique.com/58533-large_default/white-shark-wgm-5019-dagonet-wireless-white.jpg",
+      "id": "GtzJRWCeiEY"
+    },
+    {
+      "productName": "Redragon THORIDAL H730 - WHITE",
+      "details": "🎧 Casque de Jeu Filaire USB – Précision, Immersion et Confort Durable\n\nPensé pour les gamers exigeants, ce casque combine un son spatial immersif, un micro performant et un confort longue durée pour un gameplay optimal.\n\n🔊 Son spatial 360° – Pour une immersion sonore totale et réaliste\n🎧 Pilotes de 53 mm haute précision – Audio clair et puissant\n🎙️ Microphone antibruit amovible – Communication nette en toutes circonstances\n🧠 Coussinets en mousse PU ultra-confortables – Pour des sessions prolongées sans gêne\n🔁 Coussinets magnétiques remplaçables – Faciles à entretenir et à adapter\n🎮 Commandes audio en ligne – Réglage rapide et intuitif\n💻 Compatibilité étendue : PC, PS4, PS5\n🔌 Connexion : Filaire via USB",
+      "categorie": "accessories",
+      "price": "159.000",
+      "quantity": "30",
+      "image": "https://skymil-informatique.com/57637-large_default/redragon-thoridal-h730-white.jpg",
+      "id": "kvQiqbfwDvc"
+    },
+    {
+      "productName": "AQIRYS Alya 2,4 GHz Sans fil - Blanc",
+      "details": "🔗 Connectivité : Sans fil (Bluetooth 5.0 + 2,4 GHz)\n\n🖥️ Interface : USB 2.0\n\n🔊 Haut-parleurs : 50 mm – Son stéréo 3D\n\n📈 Réponse en fréquence : Casque : 20 Hz – 20 kHz - Microphone : 100 Hz – 10 kHz\n\n🎚️ Impédance : Casque : 32 Ohm - Micro : ≤ 2200 Ohm\n\n📢 Sensibilité : Casque : 114 ± 3 dB - Micro : -38 ± 3 dB\n\n📡 Portée sans fil : Jusqu’à 10 mètres\n\n🔋 Batterie : 2000 mAh – Temps de charge max : 4h\n\n⏱️ Autonomie : Jusqu’à 50 heures\n\n🌈 Rétroéclairage : RGB dynamique\n\n🎨 Couleur : Blanc\n\n🛡️ Garantie : 3 mois",
+      "categorie": "accessories",
+      "price": "265.000",
+      "quantity": "5",
+      "image": "https://skymil-informatique.com/38840-large_default/aqirys-alya-24-ghz-sans-fil-blanc.jpg",
+      "id": "RP3SG65XuBQ"
+    },
+    {
+      "productName": "Redragon THORIDAL H730 - BLACK",
+      "details": "🎧 Casque de Jeu Filaire USB – Précision, Immersion et Confort Durable\n\nPensé pour les gamers exigeants, ce casque combine un son spatial immersif, un micro performant et un confort longue durée pour un gameplay optimal.\n\n🔊 Son spatial 360° – Pour une immersion sonore totale et réaliste\n🎧 Pilotes de 53 mm haute précision – Audio clair et puissant\n🎙️ Microphone antibruit amovible – Communication nette en toutes circonstances\n🧠 Coussinets en mousse PU ultra-confortables – Pour des sessions prolongées sans gêne\n🔁 Coussinets magnétiques remplaçables – Faciles à entretenir et à adapter\n🎮 Commandes audio en ligne – Réglage rapide et intuitif\n💻 Compatibilité étendue : PC, PS4, PS5\n🔌 Connexion : Filaire via USB",
+      "categorie": "accessories",
+      "price": "159.000",
+      "quantity": "6",
+      "image": "https://skymil-informatique.com/57629-large_default/redragon-thoridal-h730-black.jpg",
+      "id": "ruKR-DgqKN4"
+    },
+    {
+      "productName": "GAMEON 24.5″ | 190HZ | 0.5MS | IPS + SUPPORT – Midnight Pro X Series",
+      "details": "🖥️ Écran Gaming 24,5″ FAST IPS – Full HD 1920×1080 / 190Hz – 0.5ms\n🎨 Couleurs 120% sRGB – HDR10\n🔁 G-Sync / FreeSync – VRR PS5 & PC\n🎮 Modes Gaming + Crosshair Assistant\n🔊 Dual Speakers + RGB Back Panel\n🔌 HDMI 2.1 • DisplayPort • VESA 100×100\n⛁ Design métal avec pied ajustable\n🎧 Compatible PS5 / Xbox Series / Nintendo Switch\n🛡 Garantie 1 an",
+      "categorie": "monitor",
+      "price": "429.000",
+      "quantity": "7",
+      "image": "https://skymil-informatique.com/62310-large_default/gameon-245-190hz-05ms-ips-support-midnight-pro-x-series.jpg",
+      "id": "sicE65IRIRI"
+    },
+    {
+      "productName": "Microsoft Windows 10 / 11 Pro KEY",
+      "details": "It’s a blissful union of the best qualities of Windows 7 and Windows 8, the desktop features of 7 with some of the touch-friendly attributes of 8.1",
+      "categorie": "digital",
+      "price": "20.00",
+      "quantity": "100",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2020/02/windows-10-11-pro-1.png?resize=268%2C249&ssl=1",
+      "id": "15oJxdr2ZJ8"
+    },
+    {
+      "productName": "AVG Internet Security 2019 Device 1 Year KEY",
+      "details": "AVG Internet Security includes Internet Security for Windows, AntiVirus for Android and AntiVirus for Mac.\nAntivirus – Keep your essential and most popular software always up to date\nRansomware Protection – Wall off personal photos & files from ransomware attacks\nAnti-Spam – Block spam, scams, & phishing email.",
+      "categorie": "digital",
+      "price": "70.00",
+      "quantity": "100",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2020/02/avg-anti-virus-1-pc-1-year.png?resize=268%2C249&ssl=1",
+      "id": "P_4GyWUJzdo"
+    },
+    {
+      "productName": "McAfee Antivirus 2020 – 1 Device 1 Year KEY",
+      "details": "Essential antivirus protection for your PC so you can browse, bank, and shop safely online McAfee® AntiVirus, award-winning protection for your PC whenever you’re online.\nWith a quick install and our always up to date security, it blocks threats using antivirus that’s verified by independent tests\nNow backed by our 100% Guarantee: a McAfee expert will remove a virus for free",
+      "categorie": "digital",
+      "price": "70.00",
+      "quantity": "100",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2020/02/mcafee-antivirus.png?resize=268%2C249&ssl=1",
+      "id": "wk9RuVbr0dg"
+    },
+    {
+      "productName": "Windows Server Standard 2019 KEY",
+      "details": "Windows Server is the operating system that bridges on-premises environments with Azure services, enabling hybrid scenarios that maximize existing investments. Increase security and reduce business risk with multiple layers of protection built into the operating system. Evolve your datacenter infrastructure to achieve greater efficiency and scale with Hyper converged Infrastructure. Enable developers and IT pros to create cloud native applications and modernize their traditional apps using containers and micro-services.",
+      "categorie": "digital",
+      "price": "120.00",
+      "quantity": "100",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2020/02/windows-server-19.png?resize=268%2C249&ssl=1",
+      "id": "9GJIdKS3mNw"
+    },
+    {
+      "productName": " Resident Evil Requiem | RE9",
+      "details": "Resident Evil Requiem introduces a groundbreaking chapter in the survival horror genre, delivering the most immersive installment in the legendary Resident Evil series. Step into the role of FBI analyst Grace Ashcroft to face relentless terror, or join seasoned agent Leon S. Kennedy in adrenaline-filled action.\n\nTheir distinct paths and gameplay styles intertwine into an intense, suspenseful adventure that will leave you breathless and haunt you long after the game ends.",
+      "categorie": "digital",
+      "price": "120.000",
+      "quantity": "99",
+      "image": "https://images.g2a.com/323x433/1x1x1/resident-evil-requiem-p10000513135/70dbfe5d78ff476db8a414cf",
+      "id": "qIa-c0sSRQc"
+    },
+    {
+      "productName": "Grand Theft Auto V (GTA 5) PC - Rockstar Key",
+      "details": "One of the biggest action-adventure games awaits you with its huge world, interesting gameplay, rich story, and memorable characters. Take control over Franklin, Trevor, and Michael and make your dreams come true in San Andreas.\n\nGrand Theft Auto V is an action-adventure game where you can roam the open world as much as you wish and complete the story missions which additionally unlock gameplay mechanics. You decide how you’re going to lead your character, either getting to the top of the richest people in Los Santos or to the very bottom with the gangs and organized crime. This content was copied from https://www.g2a.com/grand-theft-auto-v-rockstar-key-global-i10000000788017. It is protected by copyright, all rights reserved. If you want to use it, you are obligated to leave the link to the original source.",
+      "categorie": "digital",
+      "price": "50.000",
+      "quantity": "99",
+      "image": "https://images.g2a.com/1024x576/1x1x1/grand-theft-auto-v-rockstar-key-global-i10000000788017/59e5efeb5bafe304c4426c47",
+      "id": "4sTPnEtdp7s"
+    },
+    {
+      "productName": "Black Myth: Wukong Steam Key",
+      "details": "Black Myth: Wukong is an action RPG inspired by Chinese mythology. You will embody the Predestined and take part in a marvelous epic during which you will have to face many perils to discover the dark truth of a glorious legend.",
+      "categorie": "digital",
+      "price": "220.00",
+      "quantity": "99",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2024/08/wukong.png?fit=268%2C249&ssl=1",
+      "id": "4UO2b8otci8"
+    },
+    {
+      "productName": "Call of Duty: Modern Warfare 2  Steam Account",
+      "details": "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141.",
+      "categorie": "digital",
+      "price": "135.00",
+      "quantity": "99",
+      "image": "https://i0.wp.com/fraykeys.tn/wp-content/uploads/2022/08/mw2-2022.png?fit=268%2C249&ssl=1",
+      "id": "Qs_pTvIoyXI"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

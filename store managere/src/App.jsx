@@ -15,7 +15,7 @@ function App() {
   const [products, setProducts] = useState([]);
   const [searchedProduct, setSearchedProducts] = useState([]);
   const [categorie, setCategorie] = useState("all");
-  const [selectedProduct,setSelectedProduct]=useState(null)
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handLogin = (user) => {
     setUsername(user);
@@ -24,7 +24,7 @@ function App() {
   };
   const handleLogout = () => {
     localStorage.removeItem("user");
-    setLogIn(false)
+    setLogIn(false);
   };
 
   useEffect(() => {
@@ -56,7 +56,7 @@ function App() {
         categorie === "all" || product.categorie === categorie;
       return searched && matchCategorie;
     });
-    setSearchedProducts(filtred)
+    setSearchedProducts(filtred);
   };
 
   const pages = () => {
@@ -70,7 +70,14 @@ function App() {
         />
       );
     } else if (page === "product") {
-      return <Product product={selectedProduct}/>;
+      return (
+        <Product
+          product={selectedProduct}
+          products={products}
+          setPage={setPage}
+          setProducts={setProducts}
+        />
+      );
     } else if (page === "addProduct") {
       return <AddPost />;
     }
@@ -91,8 +98,15 @@ function App() {
           <option value="accessories">accessories</option>
           <option value="digital">Digital items / keys</option>
         </select>
-        <div onClick={()=>setPage("addProduct")}>create Product</div>
-        <div onClick={()=>setPage("allProducts")}>Our product</div>
+        <div onClick={() => setPage("addProduct")} className="nav-link">
+          create Product
+        </div>
+        <div onClick={() => setPage("allProducts")} className="nav-link">
+          Our product
+        </div>
+        <button type="button" onClick={handleLogout}>
+          logout
+        </button>
       </nav>
       {pages()}
     </div>
